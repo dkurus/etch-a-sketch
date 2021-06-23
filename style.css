@@ -3,8 +3,12 @@
    border-color: black;
    border-style: solid;
    display: grid;
-   height: 60em;
+   height: 30em;
+   width: 30em;
+   margin-left: auto;
+   margin-right:auto;
    grid-template-columns: repeat(16, 6.25%);
+
    
 }
 
@@ -12,6 +16,10 @@
    background-color: rgb(255, 255, 255);
 }
 
-.cellshovar {
-   background-color: black;
+button {
+   margin-top: 100px;
+   font-size: larger;
+   margin-bottom: 20px;
+
 }
+
