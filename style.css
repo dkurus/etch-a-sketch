@@ -1,0 +1,17 @@
+.container {
+   background-color: rgb(255, 255, 255); 
+   border-color: black;
+   border-style: solid;
+   display: grid;
+   height: 60em;
+   grid-template-columns: repeat(16, 6.25%);
+   
+}
+
+.cells {
+   background-color: rgb(255, 255, 255);
+}
+
+.cellshovar {
+   background-color: black;
+}
