@@ -22,11 +22,11 @@ function colorsTheCells () {
 
 const resetButton = document.querySelector('button');
 resetButton.addEventListener('click', () => {
-    allTheCells.forEach((item) => {
-        item.style.background = 'white';    
-    })
-
-  const userCellNumberInput = prompt('please decide how many cells the width should be \r\n(max 100)', 100);
+    // allTheCells.forEach((item) => {
+    //     item.style.background = 'white';    
+    // })
+  
+  const userCellNumberInput = prompt('please decide the amount of pixels the width should be \r\n(max 100 cells)', 16);
 
   gridResizer(userCellNumberInput);
 })
@@ -43,8 +43,8 @@ function gridResizer (userInput) {
         let divSelector = document.createElement('div');
         divSelector.className = 'cells';
         gridContainer.appendChild(divSelector);
-        colorsTheCells();
     }
+    colorsTheCells();
 }
 
 function removeAllCellsForRefresh () {

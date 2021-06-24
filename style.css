@@ -16,10 +16,15 @@
    background-color: rgb(255, 255, 255);
 }
 
+.buttonAlign {
+   display: flex;
+   justify-content: center;
+
+}
 button {
+   
    margin-top: 100px;
    font-size: larger;
    margin-bottom: 20px;
-
 }
 
